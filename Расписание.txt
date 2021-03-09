@@ -1,0 +1,33 @@
+id    study_group     week_day     pair_number    periodicity    lesson_type     name    time    classroom     subgroup
+
+-- Понедельник
+INSERT INTO `timetable` VALUES (NULL, 'М-09-18', '1', '2', '0', 'лк.', 'Философия', '9:55-11:15', 'Г-301', '0');
+INSERT INTO `timetable` VALUES (NULL, 'М-09-18', '1', '3', '0', 'пр.', 'Физ-ра', '11:30-12:50', 'М-101', '0');
+INSERT INTO `timetable` VALUES (NULL, 'М-09-18', '1', '4', '2', 'лк.', 'Чув. язык', '13:20-14:40', '', '0');
+
+-- Вторник
+INSERT INTO `timetable` VALUES (NULL, 'М-09-18', '2', '3', '1', 'пр.', 'Философия', '11:30-12:50', 'С-305', '0');
+INSERT INTO `timetable` VALUES (NULL, 'М-09-18', '2', '4', '0', 'пр.', 'Лат. язык', '13:20-14:40', 'Л-313', '0');
+INSERT INTO `timetable` VALUES (NULL, 'М-09-18', '2', '5', '0', 'лаб.', 'Гистология', '14:55-17:50', 'М-314', '0');
+
+-- Среда
+INSERT INTO `timetable` VALUES (NULL, 'М-09-18', '3', '1', '1', 'пр.', 'Граждановедение', '8:20-9:40', '', '0');
+INSERT INTO `timetable` VALUES (NULL, 'М-09-18', '3', '2', '0', 'пр.', 'Анатомия', '9:55-11:15', 'П-206', '0');
+INSERT INTO `timetable` VALUES (NULL, 'М-09-18', '3', '2', '0', 'пр.', 'Экономика', '9:55-11:15', '', '0');
+INSERT INTO `timetable` VALUES (NULL, 'М-09-18', '3', '5', '0', 'лаб.', 'Анатомия', '15:15-18:50', '', '0');
+
+-- Четверг
+INSERT INTO `timetable` VALUES (NULL, 'М-09-18', '4', '1', '1', 'лк.', 'Гистология', '8:20-9:40', 'М-410', '0');
+INSERT INTO `timetable` VALUES (NULL, 'М-09-18', '4', '1', '2', 'лк.', 'Биология', '8:20-9:40', 'М-412', '0');
+INSERT INTO `timetable` VALUES (NULL, 'М-09-18', '4', '3', '0', 'пр.', 'Ин. язык', '11:30-12:50', 'М-341а', '0');
+INSERT INTO `timetable` VALUES (NULL, 'М-09-18', '4', '4', '0', 'пр.', 'История медицины', '13:20-14:40', 'Л-206', '0');
+
+-- Пятница
+INSERT INTO `timetable` VALUES (NULL, 'М-09-18', '5', '1', '0', 'пр.', 'Химия', '8:20-10:20', 'О-204', '0');
+INSERT INTO `timetable` VALUES (NULL, 'М-09-18', '5', '4', '1', 'лаб.', 'Чув. язык', '13:20-14:40', '1-435', '0');
+INSERT INTO `timetable` VALUES (NULL, 'М-09-18', '5', '5', '1', 'лк.', 'История медицины', '14:55-16:15', 'Г-301', '0');
+INSERT INTO `timetable` VALUES (NULL, 'М-09-18', '5', '5', '2', 'лк.', 'Граждановедение', '14:55-16:15', 'П-206', '0');
+
+-- Суббота
+INSERT INTO `timetable` VALUES (NULL, 'М-09-18', '6', '1', '0', 'лаб.', 'Биология', '8:20-10:20', '', '0');
+INSERT INTO `timetable` VALUES (NULL, 'М-09-18', '6', '3', '0', 'лк.', 'Химия', '11:30-12:50', 'М-410', '0');
